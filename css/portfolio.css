@@ -1,0 +1,408 @@
+
+/*******************************/
+/*    PORTFOLIO PAGE STYLES    */
+/*                             */
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(http://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(http://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSugdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+
+
+@charset "UTF-8";
+/* CSS Document */
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    font-size: 13px;
+}
+
+#container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+hr {
+    color: #fff;
+    background-color: #fff;
+}
+
+h3 {
+    color: #999;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding-top: 15px;
+}
+
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    color: #000;
+}
+
+#nav {
+    width: 220px;
+    display: block;
+    margin: auto;
+}
+
+#nav ul {
+}
+
+#nav li {
+    display: inline;
+    border-radius: 5px;
+    
+}
+
+#nav li a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #999;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+
+#nav a:hover {
+    color: #000;
+    background-color: #42DCA3;
+}
+
+a:hover {
+color: #666;
+}
+
+#nav a.current {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    background-color: #42DCA3;
+    color: #000;
+}
+
+#nav a:active {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    background-color: #42DCA3;
+    color: #000;
+}
+
+#header {
+    margin: 0 auto;
+    margin-top: 80px;
+    width: 500px;   
+    font-family: 'Open Sans', sans-serif;
+}
+
+#header a {
+    text-decoration: none;
+    font-weight: 200;
+}
+
+#header > h1 {
+    margin: auto;
+    width: 400px;
+}
+
+#content {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 65px;
+    
+}
+
+.portfolionav {
+    margin: 15px 10px 0px 0px;
+    width: 100%;
+}
+
+.portfolionav a {
+    text-decoration: none;
+    color: #099;
+}
+
+.portfolionav a:hover {
+    text-decoration: none;
+    color: #333;
+}
+
+.littlenav {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+}
+
+.project {
+    width: 200px;
+    height: 242px;
+    margin: 15px;
+    float: left;
+    
+}
+
+.projectname {
+    font-family: 'Open Sans', sans serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: .3em;
+}
+
+.projectcategory {
+    font-family: 'Open Sans', sans serif;
+    font-weight: 100;
+    font-size: 10px;
+    line-height: .3em;
+}
+
+.workdescrip {
+    margin-top: -3px;
+    width: 195px;
+    height: 45px;
+    line-height: .3em;
+    float: left;
+    padding: 2px;
+}
+
+#descriptionleft {
+    padding: 15px;
+    float: left;
+    width: 350px;
+}
+
+#descriptionright {
+    width: 500px;
+    float: left;
+    margin-top: -16px;
+}
+
+#descriptionright a {
+    color: #66cccc;
+}
+
+#descriptionright a:hover {
+    color:#444;
+}
+
+#description p {
+    font-family: Helvetica Neue, Arial, sans-serif;
+    line-height: 130%;
+    font-size: 14px;
+    color: #333;
+}
+
+#projlistleft {
+    width: 165px;
+    float: left;
+    margin-right: 55px;
+}
+
+#projlistleft ul {
+    list-style-type: none;
+    margin-left: -30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#projlistleft ul li {
+    margin-bottom: 5px;
+
+}
+
+#projlistleft a {
+    color: #CCC;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 12px;
+    background: #222;
+    display: block;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    
+}
+
+#projlistleft a.current {
+    background-color: #42DCA3;
+    color: #000;
+}
+
+#projlistleft a:hover {
+    color: #fff;
+    background-color: #42DCA3;
+}
+
+#maindescrip {
+    width: 500px;
+    float: left;
+    margin-top: -5px;
+    padding: 0px 10px 0px 38px;
+}
+
+#mainvisualdesign {
+    width: 700px;
+    float: left;
+    padding: 0px 10px 0px 20px;
+}
+
+#infort {
+    width: 232px;
+    float: left;
+}
+
+#infort a {
+    color: #999;
+}
+
+#infort ul {
+    font-size: 12px;
+    color: #666;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#infort ul li {
+    list-style-type: none;
+}
+
+#infort ul li a:hover {
+     color: #66cccc;
+}
+
+#footer {
+    width: 100%;
+    margin-top: 30px;
+    float: left;
+}
+
+#footer p{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    color: #333;
+    text-align: center;
+}
+
+.shadow {
+-moz-box-shadow: 0 0 30px 5px #999;
+-webkit-box-shadow: 0 0 30px 5px #999;
+}
+
+.selected {
+    color: #42DCA3;
+}
+
+
+/* SLIMBOX */
+
+#lbOverlay {
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    cursor: pointer;
+}
+
+#lbCenter, #lbBottomContainer {
+    position: absolute;
+    z-index: 9999;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.lbLoading {
+    background: #fff url(loading.gif) no-repeat center;
+}
+
+#lbImage {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 10px solid #fff;
+    background-repeat: no-repeat;
+}
+
+#lbPrevLink, #lbNextLink {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    outline: none;
+}
+
+#lbPrevLink {
+    left: 0;
+}
+
+#lbPrevLink:hover {
+    background: transparent url(prevlabel.gif) no-repeat 0 15%;
+}
+
+#lbNextLink {
+    right: 0;
+}
+
+#lbNextLink:hover {
+    background: transparent url(nextlabel.gif) no-repeat 100% 15%;
+}
+
+#lbBottom {
+    font-family: Verdana, Arial, Geneva, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #666;
+    text-align: left;
+    border: 10px solid #fff;
+    border-top-style: none;
+    padding: 0 5px 1px 2px;
+}
+
+#lbCloseLink {
+    display: block;
+    float: right;
+    width: 66px;
+    height: 22px;
+    background: transparent url(closelabel.gif) no-repeat center;
+    
+    outline: none;
+}
+
+#lbCaption, #lbNumber {
+    margin-right: 75px;
+    padding-left: 20px;
+    color: #999;
+    font-size: 9px;
+}
+
+#lbCaption {
+    font-size: 11px;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#lbNumber {
+    padding-top: 5px;
+}
+
+.fa-check-circle {
+    color: green;
+    font-size: 20px;
+}
+
+.fa-trademark {
+    font-size: 8px;
+}
