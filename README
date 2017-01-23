@@ -1,0 +1,11 @@
+LOCAL MACHINE --> STAGING (LOCAL) --> PUSH TO REMOTE
+
+Untracked Changes --> Tracked Changes --> "officially" changed
+
+ ''              --> 'git add index.html' --> 'git push'
+
+ 					1) git add file-you-changed
+ 					2) git commit -m "WHAT YOU DID"
+ 					3) git push
+
+
